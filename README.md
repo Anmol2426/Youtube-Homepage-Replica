@@ -6,11 +6,11 @@ A front-end clone of the YouTube homepage using **only HTML and CSS**. This resp
 
 ##  Features
 
-- 🎯 Pixel-perfect replica of YouTube homepage UI
-- 🧠 Pure HTML and CSS — no frameworks or JS
-- 📱 Responsive video grid layout
-- 🎥 Hover effect on channel profile shows subscriber count
-- 💡 Organized file structure for scalability
+-  Pixel-perfect replica of YouTube homepage UI
+-  Pure HTML and CSS — no frameworks or JS
+-  Responsive video grid layout
+-  Hover effect on channel profile shows subscriber count
+-  Organized file structure for scalability
 
 ---
 

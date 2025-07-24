@@ -1,0 +1,150 @@
+.thumbnail-1{
+  width: 100%;
+ }
+ 
+ .vid-thumbnail{
+   margin-bottom: 8px;
+   position: relative;
+ }
+
+
+ .video-time{
+  position:absolute;
+  background-color: black;
+  color: white;
+  font-family:Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 4px;
+  border-radius:2px;
+  bottom: 10px;
+  right: 4px ;
+ }
+ 
+ 
+ .video-title{
+   width: 100%;
+   line-height: 22px ;
+   margin-bottom: 10px ;
+ }
+ 
+ 
+ 
+ .channel-pic{
+   width: 40px ;
+   position: relative;
+   height: 40px;
+  }
+ 
+ .profile-pic{
+   width: 36px;
+   border-radius: 100% ;
+ }
+ 
+ .vid-info{
+  margin-left: 10px;
+ }
+ 
+ .video-title{
+   font-weight: 500 ;
+   font-size: 14px ;
+ }
+ 
+ .video-author,
+ .video-stats{
+   font-size: 12px;
+   color: rgb(96, 96, 96) ;
+ }
+ 
+ .video-author{
+   margin-bottom: 4px ;
+ }
+ 
+ .video-grid{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr ;
+   column-gap: 16px;
+   row-gap: 40px;
+ }
+ 
+ 
+ .vid-below{
+   display: grid;
+   grid-template-columns: 40px 1fr;
+ }
+
+ .display-pic{
+  height: 55px;
+  width: 55px;
+  object-fit: cover;
+  border-radius: 40px;
+ }
+
+ .container{
+  align-items: center;
+  padding: 6px 0px ;
+  padding-left: 10px;
+  position: absolute;
+  z-index: 300;
+  width: 200px;
+  background-color: white;
+  display: flex;
+  white-space: nowrap;
+  height: 65px;
+  border-radius: 4px ;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s;
+ }
+
+
+ .channel-pic:hover .container{
+  opacity: 1;
+ }
+
+
+ @media (max-width:868px){
+  .video-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .video-title{
+    font-size: 16px ;
+  }
+ }
+
+
+ @media (min-width:867px) and (max-width:999px){
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+ }
+
+ @media (min-width:1000px){
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+ }
+
+
+ .channel-display-pic{
+  display: flex;
+  align-items: center;
+  height: 100%;
+ }
+
+ .channel-info{
+  padding-left: 8px;
+  font-family: Roboto;
+ }
+
+ .display-name{
+  font-weight: 700;
+  font-size: 15px;
+ }
+
+ .display-subs{
+  color: rgb(96, 96, 96);
+  font-size: 13px;
+ }
